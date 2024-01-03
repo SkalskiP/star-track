@@ -1,4 +1,11 @@
-<h1 align="center">star-track </h1>
+<h1 align="center">Star-Track </h1>
+
+<p align="center">
+    </br>
+    <img width="200" src="https://github.com/SkalskiP/star-track/assets/26109316/78d16753-0dd6-4857-a017-89ecd3b479c9" alt="star track logo">
+    </br>
+</p>
+
 
 ## 👋 hello
 
