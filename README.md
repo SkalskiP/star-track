@@ -2,7 +2,7 @@
 
 <p align="center">
     </br>
-    <img width="200" src="https://github.com/SkalskiP/star-track/assets/26109316/78d16753-0dd6-4857-a017-89ecd3b479c9" alt="star track logo">
+    <img width="400" src="https://github.com/SkalskiP/star-track/assets/26109316/b643f69f-5a52-42b6-a54d-b22132beb5ee" alt="star track logo">
     </br>
 </p>
 
