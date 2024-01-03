@@ -9,7 +9,7 @@
 
 ## 👋 hello
 
-Star-Track is a user-friendly utility for tracking GitHub repository statistics. It offers an efficient way to monitor and analyze the performance of your GitHub projects.
+Star-Track is a user-friendly utility for tracking GitHub repository statistics. 
 
 ## 💻 install
 
