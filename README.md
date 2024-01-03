@@ -31,3 +31,9 @@ Star-Track is a user-friendly utility for tracking GitHub repository statistics.
     ```bash
     pip install -r requirements.txt
     ```
+
+## ⚙️ execute
+
+```bash
+python -m startrack.app
+```

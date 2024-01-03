@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from enum import Enum
 from typing import List, Dict, Any
 
+import pandas as pd
 import requests
 
 
@@ -85,3 +86,22 @@ def list_organization_repositories(
 
     response = requests.get(url, headers=headers, params=params)
     return response.json()
+
+
+def to_dataframe(repositories: List[RepositoryData]) -> pd.DataFrame:
+    """
+    Convert a list of RepositoryData objects into a pandas DataFrame.
+
+    Args:
+        repositories (List[RepositoryData]): A list of RepositoryData objects.
+
+    Returns:
+        pd.DataFrame: A DataFrame where each row represents a repository, with columns
+            for the repository's name and star count.
+    """
+    data = [
+        {'full_name': repository.full_name, 'star_count': repository.star_count}
+        for repository
+        in repositories
+    ]
+    return pd.DataFrame(data)
